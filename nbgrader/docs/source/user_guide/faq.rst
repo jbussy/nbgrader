@@ -149,7 +149,7 @@ Windows
 
 The core pieces of nbgrader will also work on Windows: the "Create Assignment"
 extension, ``nbgrader assign``, ``nbgrader autograde``, ``nbgrader formgrade``,
-``nbgrader feedback``, ``nbgrader validate``, and ``nbgrader export``.
+``nbgrader generate_feedback``, ``nbgrader validate``, and ``nbgrader export``.
 
 However, the parts of nbgrader corresponding to file management (the
 "Assignment List" extension, ``nbgrader release``, ``nbgrader fetch``,

@@ -4,7 +4,7 @@ Customizing how the student version of an assignment looks
 .. seealso::
 
     :doc:`/user_guide/creating_and_grading_assignments`
-        Documentation for ``nbgrader assign``, ``nbgrader autograde``, and ``nbgrader feedback``.
+        Documentation for ``nbgrader assign``, ``nbgrader autograde``, and ``nbgrader generate_feedback``.
 
     :doc:`/command_line_tools/nbgrader-assign`
         Command line options for ``nbgrader assign``

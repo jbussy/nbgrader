@@ -18,6 +18,7 @@ from . import (
     AutogradeApp,
     FormgradeApp,
     FeedbackApp,
+    GenerateFeedbackApp,
     ReleaseFeedbackApp,
     ValidateApp,
     ReleaseApp,
@@ -116,6 +117,14 @@ class NbGraderApp(NbGrader):
         ),
         feedback=(
             FeedbackApp,
+            dedent(
+                """
+                DEPRECATED: use generate_feedback instead.
+                """
+            ).strip()
+        ),
+        generate_feedback=(
+            GenerateFeedbackApp,
             dedent(
                 """
                 Generate feedback (after autograding and manual grading).
